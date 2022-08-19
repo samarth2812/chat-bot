@@ -1,0 +1,255 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hey", "Hello", "Is anyone there?", "Good day", "Hey there","greeting"],
+        "responses": [
+          "Hey",
+          "Hello, how can I help?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "will visit soon","goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "UWP",
+        "patterns": ["What is UWP?", "What does UWP do?","UWP","define UWP"],
+        "responses": [
+          "UWP is an university-wide program by the SRM University that aims to better the wellness of students, faculty and other stakeholders on campus.",
+          "The program uses Research + Action to address various aspects of ones wellbeing."
+        ]
+      },
+      {
+        "tag": "SDGs",
+        "patterns": ["What are SDGs?", "What do you mean by SDGs?","What is SDG?","SDG","Sustainable Development Goals"],
+        "responses": [
+          "The Sustainable Development Goals (SDGs), also known as the Global Goals, were adopted by the United Nations in 2015 as a universal call to action to end poverty, protect the planet, and ensure that by 2030 all people enjoy peace and prosperity."
+        ]
+      },
+      {
+        "tag": "Indicators",
+        "patterns": ["What are Indicators?", "What do you mean by Indicators?","Indicators","list indicators"],
+        "responses": [
+          "An indicator is a measurable aspect of environmental, economic, or social systems that is useful for monitoring changes in system characteristics relevant to the continuation of human and environmental well being."
+        ]
+      },
+      {
+        "tag": "Eligible",
+        "patterns": ["Who are Eligible for this program?","Who is eligible for the program","Who is eligible?","eligible","eligibility"],
+        "responses": [
+          "The Professors of the University and Research Scholars are eligible for this program."
+        ]
+      },
+      {
+        "tag": "Students",
+        "patterns": ["Can students be involved?", "Are students allowed to participate in this initiative?","are students allowed","Can students participate?","student participation"],
+        "responses": [
+          "The students are not allowed to participate in this initiative directly. They can only be involved under the guidance of faculty or mentor."
+        ]
+      },
+      {
+        "tag": "Tasks",
+        "patterns": ["What tasks can I complete to receive an acceptance?", "How do i get an acceptance?","what tasks are allowed","tasks","What are the tasks allowed?"],
+        "responses": [
+          "These are the steps to receive an acceptance\n Go to Indicators and SDGs\n Serach for the goals or indicators listed there and see if they fulfil your reserach\n If yes upload your research paper and fill the form.\n You will get a mail from the UWP."
+        ]
+      },
+      {
+        "tag": "Distinguish",
+        "patterns": ["How can I distinguish if a program will be credited as a wellness, financial or fitness program?","distinguish"],
+        "responses": [
+          "If it fulfils wellness criteria mentioned on the page then it will be credited as wellness and same for other programs."
+        ]
+      },
+      {
+        "tag": "New Portal",
+        "patterns": ["How do i access the journeys in the new portal?", "Access journeys in the new portal?","New portal","Access new portal","what is in new portal?"],
+        "responses": [
+          "You can visit the About Us section to know more about us. You can also go to the Announcements and Articles section. The Indicators and SDGs section will brief you more about our goals for the program."
+        ]
+      },
+      {
+        "tag": "Programs not eligible",
+        "patterns": ["What are some examples of the program not eligible for wellness program?","Programs not eligible","non eleigible programs","examples"],
+        "responses": [
+          "All the programs which do not fall under the indicators and SDGs are not eligible for wellness rewards. Any program which dows not map with the subject code is not eligible."
+        ]
+      },
+      {
+        "tag": "Submission Status",
+        "patterns": ["How do I know the submission status?","Submission Status","what is Submission Status"],
+        "responses": [
+          "You will get a mail with the status on the authors registered mail id"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help :)", "Any time!"]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "Whom i can contact?", "Give me contact details.", "I need help from the support team?","How can i contact","connect","contact"],
+        "responses": [
+          "This is the contact details, you can mail your queries: uwp.support@gmail.com",
+          "You can mail here: uwp.support@gmail.com"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "what is your name","what should i call you","what's your name?","who are you?","can you tell me your name","name"],
+        "responses": [
+          "you can call me UWPbot!","I am UWPbot!","I am UWPbot, your assistant"
+        ]
+      },
+      {
+        "tag": "focused programs",
+        "patterns": [
+          "What are your focused programs?","What are your projects based on?","What areas does this portal focus on?","On what domains can we submit our research?","What are the major programs?","focused programs"
+        ],
+        "responses": [
+          "Our focused programs are : \n Global Warming \n Mental Health \n Water \n Sanitation and Hygiene \n Lifestyle Behavior"
+
+        ]
+      },
+      {
+        "tag": "Global Warming",
+        "patterns": [
+          "what is global warming?","what does the research on global warming focus on?","global warming"],
+        "responses": [
+          "Global warming: a gradual increase in the overall temperature of the earth's atmosphere generally attributed to the greenhouse effect caused by increased levels of carbon dioxide, CFCs, and other pollutants."
+        ]
+      },
+      {
+        "tag": "Mental Health",
+        "patterns": [
+          "Why is mental health important?","what does the research on mental health focus on?","mental health"],
+        "responses": [
+          "Mental Health: a persons condition with regard to their psychological and emotional well-being."
+        ]
+      },
+      {
+        "tag": "Water",
+        "patterns": [
+          "what does the research on Water focus on?","water","research on water"],
+        "responses": [
+          "This research includes a suite of approaches and studies that capture different aspects of the human dimensions of water quality. "
+        ]
+      },
+      {
+        "tag": "SPH",
+        "patterns": [
+          "What is the School of Public Health (SPH)? ","What is SPH","SPH is","SPH"],
+        "responses": [
+          "One of SRM, School of public health's mission is to design appropriate holistic and sustainable programs. SPH not only focuses on a well-rounded experience in learning but also the application of concepts and theory."
+        ]
+      },
+      {
+        "tag": "Sanitation and Hygiene",
+        "patterns": [
+          "Why is Sanitation and Hygiene important?","what does the research on Sanitation and Hygiene focus on?","Sanitation","Hygiene","Sanitation and Hygiene","what is Sanitation and Hygiene"],
+        "responses": [
+          "Sanitation is more than just toilets, it encompasses the facilities, behaviors, and services that prevent diseases caused by contact with human waste. Hygiene refers to behaviors that can improve cleanliness and lead to good health."
+        ]
+      },
+      {
+        "tag": "Lifestyle Behavior",
+        "patterns": [
+          "Why is Lifestyle Behavior important?","what does the research on Lifestyle Behavior focus on?","Why is Lifestyle important?","Lifestyle Behavior"],
+        "responses": [
+          "Lifestyle behaviours are everyday activities that result from individual's values, knowledge, and norms shaped by broader cultural and socioeconomic context."
+        ]
+      },
+      {
+        "tag": "Password Reset",
+        "patterns": [
+          "How do I reset my password?","Can you help me resetting my password?","What should I do to reset my password?","password reset"],
+        "responses": [
+          "If a faculty forgets his/her password , they may login using HOD credentials"
+        ]
+      },
+      
+      
+      {
+        "tag": "Training Programs",
+        "patterns": [
+          "What are the training programs offered by you?","What are the educational programs offered?","Training programs","What are the training programs","Training Programs"],
+        "responses": [
+          "The educational/training programs offered by us are awareness programs about sexual harassment, menstruation cycle,POSH Laws,etc.."
+        ]
+      },
+      {
+        "tag": "Purpose",
+        "patterns": [
+          "What is the purpose of this platform?","What is the goal of this initiative?","purpose","what is purpose","state the purpose"],
+        "responses": [
+          "Our platform serves aims to achieve wellness for all on campus, through active students and faculty participation and promoting mental wellbeing of students. "
+        ]
+      },
+      {
+        "tag": "Help",
+        "patterns": [
+          "Hey, can you help me?","Can you please guide me","I need help","I need assistance","help","Can you please help?"],
+        "responses": [
+          "Yes, sure. What can I help you with?",
+          "Sure,What can I do for you?",
+          "Yes, how can I be useful?",
+          "Sure,  how can I help?"
+        ]
+      },
+      {
+        "tag": "offer",
+        "patterns": [
+          "What can SPH offer you? ","What does SPH provide?","What does SPH offer?","Why is SPH important?","What is the goal of SPH?","What is the aim of SPH?","What are the advantages of SPH?","offer"],
+        "responses": [
+          "SRM, School of Public Health (SPH) aims to create public health leaders through interdisciplinary education and research. As part of SPH, the University Wellness Program (UWP) looks at the wellness of all the students on campus."
+        ]
+      },
+      {
+        "tag": "faculty-student interaction",
+        "patterns": [
+          "What is the faculty-student interaction like in SPH? ","How students interact with faculty in SPH","How faculty helps students in SPH?","How faculty guides students in SPH?","faculty-student interaction","interaction"],
+        "responses": [
+          "SPH has a mentorship program that connects faculty and students. This program assigns each student to a faculty member.  These students are ensured support throughout their time in SPH."
+        ]
+      },
+      {
+        "tag": "Difference",
+        "patterns": [
+          "What is the difference between the University wellness program and the wellness center? ","How are University wellness program and the wellness center different?","UWP AND WC","University wellness program and the wellness center"],
+        "responses": [
+          "The university wellness program is a pilot program being executed by SPH that focuses on applying concepts that are taught is several different modules along with action-oriented programs whereas the Wellness center focuses on direct patient care."
+        ]
+      },
+      {
+        "tag": "Mental Health Wellness",
+        "patterns": [
+          "What is the University Wellness Program?","What is mental health wellness?","Why is Mental Health Wellness important? ","Mental Health Wellness is ?", "What is mental health","Mental Health Wellness" ],
+        "responses": [
+          "Mental Health plays a significant role in the life of a student. Mental health goes hand in hand with having a healthy lifestyle.  A healthy lifestyle in turn has a direct affect in the way students are able to deal with many aspects of their life, including their academics. We believe that a student’s mental health can be addressed in many ways. "
+        ]
+      },
+      {
+        "tag": "Navigation",
+        "patterns": [
+          "Where can I {this) particualr option on your site?",
+          "I cannot find the (particular) option.",
+          "Can you take me to (this) page?","Navigation"
+        ],
+        "responses": [
+          "Click on (this) link...",
+          "You can try these options..."
+        ]
+      }
+    ]
+  }
