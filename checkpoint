@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\samar\\OneDrive\\Desktop\\chat--bot\\model.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\samar\\OneDrive\\Desktop\\chat--bot\\model.tflearn"
+model_checkpoint_path: "/Users/vivekkumarsingh/Drive/Random/Github/chat-bot/model.tflearn"
+all_model_checkpoint_paths: "/Users/vivekkumarsingh/Drive/Random/Github/chat-bot/model.tflearn"

@@ -1,4 +1,6 @@
+from distutils.log import error
 from flask import Flask, flash, request, redirect, url_for
+from flask_cors import CORS, cross_origin
 
 import nltk
 nltk.download('punkt')
@@ -71,7 +73,7 @@ except:
 # tensorflow.reset_default_graph()
 tf.compat.v1.reset_default_graph()
 
-net = tflearn.input_data(shape=[None, len(training[0])])
+net = tflearn.input_data(shape=[None, len(training[0])]) 
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
@@ -116,19 +118,27 @@ def chat(text):
 
 
 app = Flask(__name__)
-
+cors = CORS(app)
 
 @app.route("/", methods=["GET","POST"])
 def working():
     print(request)
-    return "working"
+    return "Working"
+    
 
 
-@app.route("/sendChat", methods=["GET","POST"])
+@app.route("/sendChat", methods=["POST"])
 def hello_world():
-    text=request.form.get('text')
-    print(chat(text))
-    return chat(text)
+    try:
+        text=request.json
+        print('text: ', text)
+        # print(chat(text))
+        result = chat(text['text'])
+        res = {}
+        res['result'] = result
+        return res
+    except(error):
+        return error
 
 @app.route("/texttoquestion", methods=["GET", "POST"])
 def generate():
